@@ -71,11 +71,11 @@ const Button = styled.button`
     font-size: 90px;
     width: 200px;
     margin: 10px;
-    background-color: #83fff5;
+    background-color: #fff783;
     border: 5px solid #000000;
     border-radius: 20px;
     :hover {
-        background: rgb(0, 255, 100);
+        background: rgb(255, 238, 0);
     }`
 
 export default AddForm;

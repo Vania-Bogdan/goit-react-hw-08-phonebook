@@ -5,7 +5,7 @@ import styled from 'styled-components';
 const ContactElement = ({ name, number, id, onRemoveContact }) => {
   return (
     <Li key={id}>
-        <p>{name + ": " + number}</p>
+        <p className='con-text'>{name + ": " + number}</p>
         <Btn onClick={()=>onRemoveContact(id)}>Delete</Btn>
     </Li>
   );
@@ -35,12 +35,12 @@ const Btn = styled.button`
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-right: 50px;
-    background: rgb(255, 100, 100);
+    margin-right: 150px;
+    background: rgb(255, 138, 138);
     padding: 0;
     :hover, :focus {
     color: white;
-    background-color: red;
+    background-color: #ff5353;
     }
 `;
 

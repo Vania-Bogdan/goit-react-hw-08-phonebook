@@ -23,6 +23,6 @@ ContactList.propTypes = {
 };
 
 const Ul = styled.ul`
-padding: 0 0 0 10px;`
+padding: 0 0 0 0;`
 
 export default ContactList;
